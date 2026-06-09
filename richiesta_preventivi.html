@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stile.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="script.js"></script>
+  <title>Richiesta Preventivi</title>
+</head>
+
+<body>
+  <header>
+    <a href="index.html" class="logo-link">
+      <img src="Immagini/logo.png" alt="Logo" loading="lazy" class="logo">
+    </a>
+    <h1>Mint Fashion</h1>
+    <!-- NAV CENTRALE -->
+    <nav class="main-nav">
+      <a href="catalogo.html">Catalogo</a>
+      <a href="servizi.html">Servizi</a>
+      <a href="chi_siamo.html">Chi Siamo</a>
+    </nav>
+    <button class="menu" onclick="toggleMenu()">☰</button>
+    <aside class="sidebar" id="sidebar">
+      <a href="chi_siamo.html">Chi Siamo</a>
+      <a href="servizi.html">Servizi</a>
+      <a href="catalogo.html">Catalogo</a>
+      <a href="richiesta_preventivi.html">Richiesta Preventivi</a>
+      <a href="contatti.html">Contatti</a>
+      <a href="FAQ.html">FAQ</a>
+      <a href="privacy_cookie.html">Privacy Policy e Cookie Policy</a>
+
+    </aside>
+  </header>
+  <main>
+    <section>
+      <h2>Richiesta Preventivo</h2>
+      <p>Per richieste di preventivo compilare il seguete form e vi risponderemo entro 24h</p>
+      <form action=" " method=" ">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="cognome">Cognome:</label>
+        <input type="text" id="cognome" name="cognome" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <div id="righe">
+
+          <div class="riga">
+            <select name="prodotto[]" class="prodotti">
+              <option value="">Prodotto</option>
+            </select>
+            <input type="number" name="quantita[]" value="1" min="1" max="10000">
+
+            <input type="file" name="immagine[]">
+          </div>
+
+        </div>
+        <button type="button" onclick="aggiungiRiga()">+</button>
+        <button type="submit">Rchiedi Preventivo</button>
+      </form>
+    </section>
+    <section>
+      <h3>Se hai dubbi o necessiti di chiarimenti:</h3><br>
+      <p>Visita la nostra sezione <a href="FAQ.html">FAQ</a></p><br>
+      <p>Oppure <a href="contatti.html">contattaci</a></p>
+    </section>
+
+  </main>
+  <footer>
+    <span class="footer-brand">Mint Fashion</span>
+    <nav>
+      <a href="chi_siamo.html">Chi Siamo</a>
+      <a href="servizi.html">Servizi</a>
+      <a href="catalogo.html">Catalogo</a>
+      <a href="contatti.html">Contatti</a>
+      <a href="FAQ.html">FAQ</a>
+      <a href="privacy_cookie.html">Privacy Policy e Cookie Policy</a>
+      <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Dit_IT"
+        class="fa fa-facebook"></a>
+      <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+
+    </nav>
+    <p>© 2026 Mint Fashion · Via Roma 1, Brescia · P.IVA 00000000000</p>
+  </footer>
+
+
+</body>
+
+</html>

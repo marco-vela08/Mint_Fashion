@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "nome": "T-shirt Oversize",
+    "tipo": "tshirt",
+    "prezzo": 29.99,
+    "badge": "Personalizzabile",
+    "img": "Immagini/prodotti/img1.jpg"
+  },
+  {
+    "id": 2,
+    "nome": "T-shirt Basic White",
+    "tipo": "tshirt",
+    "prezzo": 19.99,
+    "badge": "Nuovo",
+    "img": "Immagini/prodotti/img2.png"
+  },
+  {
+    "id": 3,
+    "nome": "T-shirt Street Black",
+    "tipo": "tshirt",
+    "prezzo": 24.99,
+    "badge": "Best seller",
+    "img": "Immagini/prodotti/img3.jpg"
+  },
+  {
+    "id": 4,
+    "nome": "T-shirt Loose Fit",
+    "tipo": "tshirt",
+    "prezzo": 27.99,
+    "badge": "Personalizzabile",
+    "img": "Immagini/prodotti/img4.jpg"
+  },
+  {
+    "id": 5,
+    "nome": "T-shirt Heavy Cotton",
+    "tipo": "tshirt",
+    "prezzo": 31.99,
+    "badge": "Nuovo",
+    "img": "Immagini/prodotti/img5.jpg"
+  },
+  {
+    "id": 6,
+    "nome": "Felpa Hoodie Black",
+    "tipo": "felpa",
+    "prezzo": 49.99,
+    "badge": "Personalizzabile",
+    "img": "Immagini/prodotti/img6.jpg"
+  },
+  {
+    "id": 7,
+    "nome": "Felpa Hoodie Grey",
+    "tipo": "felpa",
+    "prezzo": 49.99,
+    "badge": "Best seller",
+    "img": "Immagini/prodotti/img7.jpg"
+  },
+  {
+    "id": 8,
+    "nome": "Felpa Zip Casual",
+    "tipo": "felpa",
+    "prezzo": 54.99,
+    "badge": "Nuovo",
+    "img": "Immagini/prodotti/img8.jpg"
+  },
+  {
+    "id": 9,
+    "nome": "Felpa Oversize Hoodie",
+    "tipo": "felpa",
+    "prezzo": 59.99,
+    "badge": "Personalizzabile",
+    "img": "Immagini/prodotti/img7.jpg"
+  },
+  {
+    "id": 10,
+    "nome": "Cappellino Basic Cap",
+    "tipo": "accessorio",
+    "prezzo": 14.99,
+    "badge": "Personalizzabile",
+    "img": "Immagini/prodotti/img9.jpg"
+  },
+  {
+    "id": 11,
+    "nome": "Cappellino Street Black",
+    "tipo": "accessorio",
+    "prezzo": 16.99,
+    "badge": "Nuovo",
+    "img": "Immagini/prodotti/img10.jpg"
+  },
+  {
+    "id": 12,
+    "nome": "Cappellino Minimal Beige",
+    "tipo": "accessorio",
+    "prezzo": 15.99,
+    "badge": "Best seller",
+    "img": "Immagini/prodotti/img11.jpg"
+  },
+  {
+    "id": 13,
+    "nome": "T-shirt Boxy Fit",
+    "tipo": "tshirt",
+    "prezzo": 28.99,
+    "badge": "Nuovo",
+    "img": "Immagini/prodotti/img4.jpg"
+  },
+  {
+    "id": 14,
+    "nome": "Felpa Street Heavy",
+    "tipo": "felpa",
+    "prezzo": 62.99,
+    "badge": "Best seller",
+    "img": "Immagini/prodotti/img6.jpg"
+  },
+  {
+    "id": 15,
+    "nome": "T-shirt Minimal Black",
+    "tipo": "tshirt",
+    "prezzo": 22.99,
+    "badge": "Personalizzabile",
+    "img": "Immagini/prodotti/img12.jpg"
+  }
+]
+

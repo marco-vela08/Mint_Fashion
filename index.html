@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stile.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="script.js"></script>
+  <title>Mint Fashion</title>
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo-link">
+      <img src="Immagini/logo.png" alt="Logo" loading="lazy" class="logo">
+    </a>
+    <h1>Mint Fashion</h1>
+  
+    <!-- NAV CENTRALE -->
+    <nav class="main-nav">
+      <a href="catalogo.html">Catalogo</a>
+      <a href="servizi.html">Servizi</a>
+      <a href="chi_siamo.html">Chi Siamo</a>
+    </nav>
+
+    <button class="menu" onclick="toggleMenu()">☰</button>
+    <aside class="sidebar" id="sidebar">
+      <a href="chi_siamo.html">Chi Siamo</a>
+      <a href="servizi.html">Servizi</a>
+      <a href="catalogo.html">Catalogo</a>
+      <a href="richiesta_preventivi.html">Richiesta Preventivi</a>
+      <a href="contatti.html">Contatti</a>
+      <a href="FAQ.html">FAQ</a>
+      <a href="privacy_cookie.html">Privacy Policy e Cookie Policy</a>
+    </aside>
+  </header>
+  <section class="hero">
+      <img src="Immagini/logo.png" alt="Mint Fashion" loading="lazy" class="hero-img">
+      <div class="hero-body">
+        <span class="hero-kicker">Abbigliamento personalizzato · Brescia</span>
+        <h1>Diventa quello<br>che indossi</h1>
+        <p>Stampa, ricamo e personalizzazione su misura per privati e aziende. Qualità artigianale, consegna rapida.</p>
+        <a href="richiesta_preventivi.html" class="hero-cta">
+          Richiedi un preventivo <span>→</span>
+        </a>
+      </div>
+    </section>
+
+  <main>
+    <section>
+      <span class="section-label">Cosa offriamo</span>
+      <h2>I nostri servizi</h2>
+      <p>Dalla serigrafia al ricamo, tutto quello che serve per vestire il tuo brand.</p>
+      <div class="services-grid">
+        <div class="service-item">
+          <div class="service-icon">🖨️</div>
+          <h3>Stampa su abbigliamento</h3>
+          <p>Serigrafia, stampa digitale diretta e transfer per ogni tipo di capo.</p>
+        </div>
+        <div class="service-item">
+          <div class="service-icon">🏢</div>
+          <h3>Personalizzazione aziendale</h3>
+          <p>Divise, merchandising e branding coordinato per la tua impresa.</p>
+        </div>
+        <div class="service-item">
+          <div class="service-icon">✂️</div>
+          <h3>Produzioni su misura</h3>
+          <p>Grandi quantità o pezzi unici, dal campionario alla consegna.</p>
+        </div>
+      </div>
+      <button onclick="window.location.href='servizi.html'">Scopri tutti i servizi</button>
+    </section>
+
+    <!-- CAROUSEL PRODOTTI -->
+    <section>
+      <span class="section-label">Il nostro catalogo</span>
+      <h2>Scegli il tuo capo</h2>
+      <p>Un'ampia selezione di capi tra cui scegliere, personalizzabili in ogni dettaglio.</p>
+      <div class="carousel">
+        <div class="carousel-track"></div>
+      </div>
+      <button onclick="window.location.href='catalogo.html'">Visita il catalogo completo</button>
+    </section>
+
+    <!-- COME FUNZIONA -->
+    <section>
+      <span class="section-label">Il processo</span>
+      <h2>Come funziona</h2>
+      <p>Semplice, veloce e alla moda. In quattro passi il tuo capo è pronto.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-body">
+            <h3>Sfoglia il catalogo</h3>
+            <p>Esplora la nostra selezione di capi e scegli quello che fa per te.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-body">
+            <h3>Richiedi un preventivo</h3>
+            <p>Indica quantità, personalizzazione e carica il tuo design. Ti rispondiamo entro 24h.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-body">
+            <h3>Produciamo il tuo ordine</h3>
+            <p>Il nostro team si occupa di tutto, dalla stampa alla qualità finale.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <div class="step-body">
+            <h3>Ricevi e indossa</h3>
+            <p>Spedizione rapida direttamente a casa tua o in azienda.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RECENSIONI -->
+    <section>
+      <span class="section-label">Dicono di noi</span>
+      <h2>Cosa pensano i clienti</h2>
+      <div class="reviews-container">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">Servizio impeccabile e attenzione ai dettagli fuori dal comune. Mi sono trovato benissimo dall'inizio alla fine.</p>
+          <div class="review-name">Marco R.</div>
+          <div class="review-role">Cliente verificato</div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">Professionalità e velocità. Hanno superato le mie aspettative, consiglio vivamente a chi cerca qualità.</p>
+          <div class="review-name">Giulia B.</div>
+          <div class="review-role">Cliente soddisfatta</div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★☆</div>
+          <p class="review-text">Ottima esperienza complessiva. Comunicazione chiara e risultato finale eccellente.</p>
+          <div class="review-name">Luca S.</div>
+          <div class="review-role">Cliente verificato</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BANNER CTA -->
+    <section class="cta-banner">
+      <div>
+        <h2>Pronto a personalizzare?</h2>
+        <p>Contattaci oggi e ricevi un preventivo gratuito entro 24 ore</p>
+      </div>
+      <a href="richiesta_preventivi.html" class="cta-banner-btn">
+        Inizia ora →
+      </a>
+    </section>
+
+  </main>
+
+  <footer>
+    <span class="footer-brand">Mint Fashion</span>
+    <nav>
+      <a href="chi_siamo.html">Chi Siamo</a>
+      <a href="servizi.html">Servizi</a>
+      <a href="catalogo.html">Catalogo</a>
+      <a href="contatti.html">Contatti</a>
+      <a href="FAQ.html">FAQ</a>
+      <a href="privacy_cookie.html">Privacy Policy e Cookie Policy</a>
+      <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+      <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+    </nav>
+    <p>© 2026 Mint Fashion · Via Roma 1, Brescia · P.IVA 00000000000</p>
+  </footer>
+
+</body>
+</html>

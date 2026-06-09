@@ -1,0 +1,42 @@
+[
+  {
+    "titolo": "Posso personalizzare qualsiasi capo?",
+    "testo": "Sì, puoi personalizzare t-shirt, felpe, cappellini e altri capi selezionati. Alcuni materiali tecnici o capi già stampati potrebbero avere limitazioni."
+  },
+  {
+    "titolo": "Che tipo di personalizzazione posso fare?",
+    "testo": "Puoi aggiungere testi, loghi, immagini, scegliere colori, posizionamento della grafica e in alcuni casi anche ricami."
+  },
+  {
+    "titolo": "Posso caricare il mio logo o design?",
+    "testo": "Certo. Puoi caricare file in formato PNG, JPG o SVG. Per una qualità ottimale consigliamo file in alta risoluzione o vettoriali."
+  },
+  {
+    "titolo": "Quanto tempo ci vuole per la produzione?",
+    "testo": "La produzione richiede generalmente 2-5 giorni lavorativi, a cui si aggiungono i tempi di spedizione in base alla destinazione."
+  },
+  {
+    "titolo": "Posso vedere un’anteprima del prodotto?",
+    "testo": "Sì, il configuratore ti mostra un’anteprima in tempo reale del capo personalizzato prima dell’acquisto."
+  },
+  {
+    "titolo": "Posso modificare un ordine dopo averlo effettuato?",
+    "testo": "Le modifiche sono possibili solo entro poche ore dall’ordine. Dopo l’avvio della produzione non è più possibile apportare cambiamenti."
+  },
+  {
+    "titolo": "Offrite sconti per ordini di gruppo?",
+    "testo": "Sì, per ordini di più pezzi o aziende offriamo prezzi personalizzati. Contattaci per un preventivo dedicato."
+  },
+  {
+    "titolo": "Come devo lavare i capi personalizzati?",
+    "testo": "Si consiglia di lavare a 30°C, al rovescio e senza usare candeggina o asciugatrice per preservare la stampa."
+  },
+  {
+    "titolo": "Cosa succede se il prodotto arriva difettoso?",
+    "testo": "Se ricevi un prodotto difettoso o danneggiato, contattaci entro 7 giorni dalla consegna con foto del problema per una sostituzione."
+  },
+  {
+    "titolo": "Effettuate spedizioni internazionali?",
+    "testo": "Sì, spediamo in diversi paesi. I costi e i tempi di consegna variano in base alla destinazione."
+  }
+]

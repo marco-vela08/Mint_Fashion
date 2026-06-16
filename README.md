@@ -42,7 +42,7 @@ Le pagine che compongono il sito sono le seguenti:
 – Privacy Policy e Cookie Policy (/privacy-cookie.html)  
 ![sitemap](Immagini/sitemap.png)  
 
-##Palette di Colori  
+##  Palette di Colori  
 ![palette colori](Immagini/palette.png)  
 
 Documentazione tecnica completa: [Documentazione tecnica](https://github.com/marco-vela08/Mint_Fashion/blob/main/documents/Guida_Tecnica_Mint_Fashion.pdf)

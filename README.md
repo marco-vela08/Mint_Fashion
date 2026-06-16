@@ -26,9 +26,9 @@ Mint_Fashion/
 ├── script.js ← Script JavaScript globale  
 ├── prodotti.json ← Dati prodotti (catalogo)  
 ├── faq.json ← Dati FAQ  
-└── Immagini/  
+└── Immagini/  ← Altre immagini del sito  
  ├── prodotti/ ← Immagini dei prodotti  
- └── ... ← Altre immagini del sito  
+ └── ... 
 
 ## Sitemap
 Le pagine che compongono il sito sono le seguenti:  
